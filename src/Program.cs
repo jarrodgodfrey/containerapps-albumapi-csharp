@@ -40,6 +40,7 @@ app.Run();
 
 record Album(int Id, string Title, string Artist, double Price, string Image_url)
 {
+    //this is a test comment
      public static List<Album> GetAll(){
          var albums = new List<Album>(){
             new Album(1, "You, Me and an App Id", "Daprize", 10.99, "https://aka.ms/albums-daprlogo"),
